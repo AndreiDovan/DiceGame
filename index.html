@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dice game</title>
+  </head>
+  <body>
+    <main>
+      <section class="player player-1">
+        <button class="roll-btn roll-btn-1">Roll!</button>
+        <div class="credit credit-1">Credit:</div>
+        <button class="add-credit add-credit-1">Add</button>
+        <div class="dice-result dice-result-1">
+          <img class="dice-sm die-sm-1 die1-p1" />
+          <img class="dice-sm die-sm-2 die2-p1" />
+        </div>
+      </section>
+
+      <section class="player player-2">
+        <div class="dice-result dice-result-2">
+          <img class="dice-sm die-sm-1 die1-p2" />
+          <img class="dice-sm die-sm-2 die2-p2" />
+        </div>
+        <button class="add-credit add-credit-2">Add</button>
+        <div class="credit credit-2">Credit:</div>
+        <button class="roll-btn roll-btn-2">Roll!</button>
+      </section>
+
+      <section class="board">
+        <img class="dice die-1" />
+        <img class="dice die-2" />
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

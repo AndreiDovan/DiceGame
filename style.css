@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.player {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  z-index: -10;
+  background-color: #98fb98;
+  opacity: 0.5;
+}
+
+.player-1 {
+  top: 0;
+}
+
+.player-2 {
+  bottom: 0;
+}
+
+.player-active {
+  opacity: 1;
+}
+
+.board {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  background-color: #69737f;
+  z-index: 10;
+  top: calc(50vh - 25vw);
+  left: 25vw;
+  border: 5px solid #98fb98;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.dice-result {
+  position: absolute;
+  background-color: #69737f;
+  z-index: 100;
+  width: 20vw;
+  height: 10vw;
+  border-left: 2px solid #98fb98;
+  border-right: 2px solid #98fb98;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.dice-result-1 {
+  top: calc(50vh - 35vw);
+  left: 40vw;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: 2px solid #98fb98;
+}
+
+.dice-result-2 {
+  bottom: calc(50vh - 35vw);
+  left: 40vw;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: 2px solid #98fb98;
+}
+
+.dice {
+  position: absolute;
+  top: 15vw;
+  height: 20vw;
+  width: 20vw;
+  border-radius: 10px;
+}
+.die-1 {
+  left: 2vw;
+}
+
+.die-2 {
+  right: 2vw;
+}
+
+.dice-sm {
+  position: absolute;
+  height: 7vw;
+  width: 7vw;
+  top: 1.5vw;
+  border-radius: 3px;
+}
+
+.die-sm-1 {
+  left: 2vw;
+}
+
+.die-sm-2 {
+  right: 2vw;
+}
+
+.roll-btn {
+  position: absolute;
+  left: 40vw;
+  width: 20vw;
+  height: 10vw;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.roll-btn-1 {
+  top: 5vh;
+  transform: rotate(180deg);
+}
+
+.roll-btn-2 {
+  bottom: 5vh;
+}
+
+.credit {
+  font-size: 2rem;
+  position: absolute;
+}
+
+.credit-1 {
+  top: 15vh;
+  right: 5vw;
+  transform: rotate(180deg);
+}
+
+.credit-2 {
+  bottom: 15vh;
+  left: 5vw;
+}
+
+.add-credit {
+  position: absolute;
+  font-size: 1.2rem;
+}
+
+.add-credit-1 {
+  top: 20vh;
+  right: 10vw;
+  transform: rotate(180deg);
+}
+
+.add-credit-2 {
+  bottom: 20vh;
+  left: 10vw;
+}
